@@ -1,0 +1,25 @@
+{
+  "name": "avaliacao-filmes",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susanenogueira/avaliacao-filmes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susanenogueira/avaliacao-filmes/issues"
+  },
+  "homepage": "https://github.com/susanenogueira/avaliacao-filmes#readme",
+  "devDependencies": {
+    "chai": "^6.3.0",
+    "mocha": "^12.0.3"
+  }
+}
