@@ -64,4 +64,3 @@ export function avaliarFilmes(listaFilmes) {
     return resultados;
 }
 
-console.log(avaliarFilmes(listaFilmes));

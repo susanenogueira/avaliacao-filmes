@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "test": "mocha \"tests/**/*.test.js\"",
-    "test:watch": "mocha \"tests/**/*.test.js\" --watch"
+    "test": "mocha \"tests/**/*.test.js\"",
+    "test:report": "mocha \"tests/**/*.test.js\" --reporter mochawesome --reporter-options reportDir=mochawesome-report,reportFilename=relatorio-testes,html=true,json=true,overwrite=true"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/susanenogueira/avaliacao-filmes#readme",
   "devDependencies": {
     "chai": "^6.3.0",
-    "mocha": "^12.0.3"
+    "mocha": "^12.0.3",
+    "mochawesome": "^8.1.1"
   }
 }
